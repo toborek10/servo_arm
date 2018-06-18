@@ -6,7 +6,6 @@
 
 class Arm{
   	
-  
   private:
   	Joint[] joints;
   	uint16_t tick_time;
