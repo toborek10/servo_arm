@@ -14,6 +14,6 @@ void Joint::update(){
 }
 
 boolean Joint::isDone(){
-    //TO DO
+    return false;
 }
 

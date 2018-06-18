@@ -7,11 +7,11 @@
 class Arm{
   	
   private:
-  	Joint[] joints;
+  	Joint joints[8];
   	uint16_t tick_time;
 
   public:
     void moveTo(String);
-}
+};
 
 #endif

@@ -16,6 +16,6 @@ class Joint{
 		void setPos(int, int);
 		void update();
 		boolean isDone();
-}
+};
 
 #endif
