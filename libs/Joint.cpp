@@ -2,8 +2,8 @@
 #include "Joint.h"
 
 Joint::Joint(){
-    //TO DO
-}
+	    //TO DO
+	}
 
 void Joint::setPos(int val, int duration){
     //TO DO

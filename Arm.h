@@ -7,11 +7,13 @@
 class Arm{
   	
   private:
-  	Joint joints[8];
+  	Joint joints;
   	uint16_t tick_time;
 
   public:
+  	Arm();
     void moveTo(String);
+    void update();
 };
 
 #endif

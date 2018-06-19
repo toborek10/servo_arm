@@ -3,8 +3,16 @@
 #include "libs/Joint.h"
 
 #include <Wire.h>
-#include "PCA9685.h"
+#include "libs/PCA9685-Arduino-master/PCA9685.h"
+
+Arm::Arm(){
+	//TO DO
+}
 
 void Arm::moveTo(String cmd){
-	//TO DO dododo
+	//TO DO
+}
+
+void Arm::update(){
+	//TO DO
 }
